@@ -536,21 +536,6 @@ html {
   margin-right: auto;
 }
 
-.my-5 {
-  margin-top: 1.25rem;
-  margin-bottom: 1.25rem;
-}
-
-.my-16 {
-  margin-top: 4rem;
-  margin-bottom: 4rem;
-}
-
-.my-24 {
-  margin-top: 6rem;
-  margin-bottom: 6rem;
-}
-
 .my-20 {
   margin-top: 5rem;
   margin-bottom: 5rem;
@@ -566,18 +551,6 @@ html {
 
 .mt-5 {
   margin-top: 1.25rem;
-}
-
-.mt-20 {
-  margin-top: 5rem;
-}
-
-.mb-28 {
-  margin-bottom: 7rem;
-}
-
-.mb-20 {
-  margin-bottom: 5rem;
 }
 
 .block {
@@ -678,48 +651,16 @@ html {
   background-color: hsl(300 43% 22% / var(--tw-bg-opacity));
 }
 
-.bg-desktop-top {
-  background-image: url('/social-proof-section-master/images/bg-pattern-top-desktop.svg');
-}
-
-.bg-desktop-bot {
-  background-image: url('/social-proof-section-master/images/bg-pattern-bottom-desktop.svg');
+.bg-mobile-bot {
+  background-image: url('/images/bg-pattern-bottom-mobile.svg');
 }
 
 .bg-mobile-top {
-  background-image: url('/social-proof-section-master/images/bg-pattern-top-mobile.svg');
-}
-
-.bg-mobile-bot {
-  background-image: url('/social-proof-section-master/images/bg-pattern-bottom-mobile.svg');
-}
-
-.bg-\[length\:45\%\] {
-  background-size: 45%;
-}
-
-.bg-\[length\:80\%\] {
-  background-size: 80%;
-}
-
-.bg-\[length\:70\%\] {
-  background-size: 70%;
-}
-
-.bg-\[length\:60\%\] {
-  background-size: 60%;
+  background-image: url('/images/bg-pattern-top-mobile.svg');
 }
 
 .bg-left-top {
   background-position: left top;
-}
-
-.bg-left-bottom {
-  background-position: left bottom;
-}
-
-.bg-left {
-  background-position: left;
 }
 
 .bg-right-bottom {
@@ -853,12 +794,12 @@ html {
     row-gap: 3rem;
   }
 
-  .lg\:bg-desktop-top {
-    background-image: url('/social-proof-section-master/images/bg-pattern-top-desktop.svg');
+  .lg\:bg-desktop-bot {
+    background-image: url('/images/bg-pattern-bottom-desktop.svg');
   }
 
-  .lg\:bg-desktop-bot {
-    background-image: url('/social-proof-section-master/images/bg-pattern-bottom-desktop.svg');
+  .lg\:bg-desktop-top {
+    background-image: url('/images/bg-pattern-top-desktop.svg');
   }
 
   .lg\:bg-\[length\:45\%\] {
@@ -889,24 +830,12 @@ html {
     padding-left: 1.75rem;
   }
 
-  .lg\:pr-11 {
-    padding-right: 2.75rem;
-  }
-
   .lg\:pr-14 {
     padding-right: 3.5rem;
   }
 
-  .lg\:pr-16 {
-    padding-right: 4rem;
-  }
-
   .lg\:pr-20 {
     padding-right: 5rem;
-  }
-
-  .lg\:pr-10 {
-    padding-right: 2.5rem;
   }
 
   .lg\:text-start {

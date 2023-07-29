@@ -11,14 +11,10 @@ module.exports = {
       },
 
       backgroundImage: {
-        "mobile-top":
-          "url('/social-proof-section-master/images/bg-pattern-top-mobile.svg')",
-        "mobile-bot":
-          "url('/social-proof-section-master/images/bg-pattern-bottom-mobile.svg')",
-        "desktop-top":
-          "url('/social-proof-section-master/images/bg-pattern-top-desktop.svg')",
-        "desktop-bot":
-          "url('/social-proof-section-master/images/bg-pattern-bottom-desktop.svg')",
+        "mobile-top": "url('/images/bg-pattern-top-mobile.svg')",
+        "mobile-bot": "url('/images/bg-pattern-bottom-mobile.svg')",
+        "desktop-top": "url('/images/bg-pattern-top-desktop.svg')",
+        "desktop-bot": "url('/images/bg-pattern-bottom-desktop.svg')",
       },
     },
   },
